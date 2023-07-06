@@ -37,9 +37,9 @@ except URLError as e:
 
 
 #it will normalize the previos info
-fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
+#fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # it will display as table
-streamlit.dataframe(fruityvice_normalized)
+#streamlit.dataframe(fruityvice_normalized)
 streamlit.stop();
 
 
