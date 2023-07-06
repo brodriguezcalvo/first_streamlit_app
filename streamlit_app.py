@@ -45,7 +45,7 @@ except URLError as e:
 #fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 # it will display as table
 #streamlit.dataframe(fruityvice_normalized)
-streamlit.stop();
+#streamlit.stop();
 
 streamlit.header("The Fruit Load list contains:")
 #Snowflake-related functions
